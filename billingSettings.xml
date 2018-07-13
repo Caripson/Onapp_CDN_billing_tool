@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+  <!-- user id = Onapp id. You can find it in CP -->
+  <user id="19">
+  <!-- Your customer id -->
+    <customerId>150494</customerId>
+  <!-- Your customer name -->
+    <customer>My customer AB</customer>
+  <!-- if you have a internal product id for Onapp -->
+    <productId>50</productId>
+  <!-- if you have a internal service name -->
+  	<service>Streaming, usage (GB)</service>
+  <!-- if you want to have a comment in csv -->
+  	<comments>Streaming Order numer 12987</comments>
+  <!-- Your internal order number -->
+  	<ordernumber>12987</ordernumber>
+  <!-- customer commited volume -->
+    <committedvolume>0</committedvolume>
+  <!-- if customer use more the commited volume or if you dont have any commited volume. Update with GB price -->
+    <price_gb_peak_usage>1.15</price_gb_peak_usage>
+  <!-- if user have commited volume, GB price -->
+    <price_gb_usage>1.09</price_gb_usage>
+   <!-- Currency for the bill -->
+    <currency>USD</currency>
+  </user>
+<user id="54">
+  <customerId>409939</customerId>
+  <customer>Fake account</customer>
+  <productId>50</productId>
+	<service>Streaming, usage (GB)</service>
+	<comments>Streaming : 10527</comments>
+	<ordernumber>1052hfghf7</ordernumber>
+  <committedvolume>0</committedvolume>
+  <price_gb_peak_usage>1.15</price_gb_peak_usage>
+  <price_gb_usage>1.15</price_gb_usage>
+  <currency>USD</currency>
+</user>
+<user id="61">
+  <customerId>412343</customerId>
+  <customer>Fake account 432</customer>
+  <productId>50</productId>
+	<service>Streaming, usage (GB)</service>
+	<comments>Streaming  13979</comments>
+	<ordernumber>13979</ordernumber>
+  <committedvolume>75 000</committedvolume>
+  <price_gb_peak_usage>1</price_gb_peak_usage>
+  <price_gb_usage>1.10</price_gb_usage>
+  <currency>USD</currency>
+</user>
+<user id="61">
+  <customerId>150494</customerId>
+  <customer>Fake account 4234</customer>
+  <productId>50</productId>
+	<service>Streaming, usage (GB)</service>
+	<comments>Streaming : 12987</comments>
+	<ordernumber>12987</ordernumber>
+  <committedvolume>800000</committedvolume>
+  <price_gb_peak_usage>5</price_gb_peak_usage>
+  <price_gb_usage>09</price_gb_usage>
+  <currency>USD</currency>
+</user>
+<user id="47">
+  <customerId>150258</customerId>
+  <customer>Fake account 423423</customer>
+  <productId>50</productId>
+	<service>Streaming, usage (GB)</service>
+	<comments>Streaming : 13021</comments>
+	<ordernumber>13021</ordernumber>
+  <committedvolume>2252800</committedvolume>
+  <price_gb_peak_usage>475</price_gb_peak_usage>
+  <price_gb_usage>75</price_gb_usage>
+  <currency>USD</currency>
+</user>
+</settings>
