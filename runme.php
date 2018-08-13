@@ -1,4 +1,7 @@
 <?php
+// fix for crontab
+set_include_path("/tmp/Onapp_CDN_billing_tool/");
+
 $production_state;
  //Show consumption for all CP user,
 $customerXML;
