@@ -147,7 +147,10 @@ if ($production_state=="IPO")
 }
   foreach ($objOrArray as $key => &$value)
   {
-    $avrunda=intval($value);
+      // from CP v6 Onapp changed value from GB to bytes   
+    $bytesToGb=$value/1000000000;
+  $avrunda=intval($bytesToGb);
+
     buildCVS($XMLarray,$key,$avrunda);
     $currentUserID=false;
   }
@@ -155,7 +158,10 @@ if ($production_state=="IPO")
   if ($traceOutput){
   foreach ($objOrArray as $key => &$value)
   {
-    $avrunda=intval($value);
+  // from CP v6 Onapp changed value from GB to bytes
+  $bytesToGb=$value/1000000000;
+  $avrunda=intval($bytesToGb);
+
     echo "user : " . $key . " GB usage : " . $avrunda."\n" ;
   }
   }
