@@ -95,3 +95,8 @@ Become a contributor to this project!
 No sponsors yet! Will you be the first?<br>
 Become a contributor to this project!<br><br>
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=johan%2ecaripson%40gmail%2ecom&lc=SE&currency_code=SEK&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/Caripson/Onapp_CDN_billing_tool/badge.svg?style=beer-square)](https://beerpay.io/Caripson/Onapp_CDN_billing_tool)  [![Beerpay](https://beerpay.io/Caripson/Onapp_CDN_billing_tool/make-wish.svg?style=flat-square)](https://beerpay.io/Caripson/Onapp_CDN_billing_tool?focus=wish)
